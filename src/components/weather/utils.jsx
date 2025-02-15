@@ -94,7 +94,7 @@ export function getLon(city) {
     }
 }
 
-export function getImg(code, isDay) {
+export function getImg(code, isDay = 1) {
     if (sunny.includes(code)) {
         return isDay ? sunImg : moonImg;
     } else if (partCloudy.includes(code)) {
