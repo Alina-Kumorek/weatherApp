@@ -1,0 +1,15 @@
+// Customizing Bootstrap Variables
+$primary: #527da7;
+$secondary: #d99f9b;
+$success: #8F6A7C;
+
+// Import Bootstrap SCSS
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Custom Styles
+body {
+    background-image: url("/sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
